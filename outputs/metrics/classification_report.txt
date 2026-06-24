@@ -1,0 +1,22 @@
+BREAST CANCER ANN — CLASSIFICATION REPORT
+================================================
+
+model_name          : BreastCancer_ANN
+test_samples        : 114
+accuracy            : 0.9649
+precision           : 0.9857
+recall              : 0.9583
+f1_score            : 0.9718
+roc_auc             : 0.995
+epochs_trained      : 21
+
+DETAILED REPORT:
+────────────────────────────────────────────────
+               precision    recall  f1-score   support
+
+Malignant (0)       0.93      0.98      0.95        42
+   Benign (1)       0.99      0.96      0.97        72
+
+     accuracy                           0.96       114
+    macro avg       0.96      0.97      0.96       114
+ weighted avg       0.97      0.96      0.97       114
